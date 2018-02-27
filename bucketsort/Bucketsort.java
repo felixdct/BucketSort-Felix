@@ -39,10 +39,10 @@ public class Bucketsort {
          bucket[arr[i]]++;
       }
  
-      int outPos=0;
+      int pos=0;
       for (int i=0; i<bucket.length; i++) {
          for (int j=0; j<bucket[i]; j++) {
-            arr[outPos++]=i;
+            arr[pos++]=i;
          }
       }
    }
